@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>peace_homepage</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <script src="https://kit.fontawesome.com/2fedd103c3.js" crossorigin="anonymous"></script>
+    <script defer src="/js/main.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+    <body>
+        <header id="s1">
+        <div class="header-container">
+            <div class="logo">
+                <img src="/img/kw로고.jfif">
+            </div>
+            <h1 id="title"><b>Peace Homepage</b></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#s4"> <i class="fa-regular fa-envelope"></i> GuestBook</a></li>
+                    <li><a href="https://www.instagram.com/peeace.xx/" target="blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://github.com/peeacexx" target="blank"><i class="fa-brands fa-github"></i> Github</a></li>
+                    <li><a href="https://open.kakao.com/o/s1hYvnig" target="blank"><i class="fa-solid fa-comment-sms"></i> Kakao</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <main>
+            <section class="top">
+                <article class="top1"><img id="main-img" src="/img/main_img.jpg" alt="메인 이미지"></article>
+                <article class="top2"><h1 id="main-writle">“저는 금융 데이터분석가를 꿈꾸는<br>  정보융합학부 23학번 김평화입니다.”</h1>
+                </article>
+            </section>
+
+            
+            <section id="s2">
+            <a href="#s2"><i class="fa-solid fa-user-large scroll"></i></a>
+            <h1 id="info">Information</h1>
+            <article class="information">
+                <div class="container">
+                    <div class="item item1">
+                        <h2 class="icons"><i class="fa-solid fa-address-card"></i></h2>
+                        <h2 class="info-title">Basic Information</h2>
+                        <ul class="list">
+                            <li>성별 : 남성</li>
+                            <li>MBTI : ESFJ</li>
+                            <li>출생 : 2004년 12월 13일</li>
+                            <li>사는 곳 : 서울 강서구</li>
+                            <li>학번 : 2023204084</li>
+                            <li>연락처 : 010-3668-7754</li>
+                            <li>emil : xaris3@naver.com</li>
+                        </ul>
+                    </div> 
+
+                    <div class="item item2">
+                        <h2 class="icons"><i class="fa-solid fa-graduation-cap"></i></h2>
+                        <h2 class="info-title">Education</h2>
+                        <ul class="list">
+                            <li>송화초등학교</li>
+                            <li>공항중학교</li>
+                            <li>한서고등학교</li>
+                            <li>광운대학교</li>
+                            <li>정보융합학부 전공</li>
+                            <li>DS 세부전공</li>
+                            <li>경영학부 복수전공</li>
+                        </ul>
+                    </div>
+
+                    <div class="item item3">
+                        <h2 class="icons"><i class="fa-solid fa-briefcase"></i></i></h2>
+                        <h2 class="info-title">Career & Skill</h2>
+                        <ul class="list">
+                            <li>데이터분석준전문가(ADsP)</li>
+                            <li>한국사능력검정시험 1급</li>
+                            <li>정보처리기능사</li>                        <li>Python</li>
+                            <li>HTML, CSS</li>
+                            <li>C언어</li>
+                            <li>R</li>
+                        </ul>
+                    </div>
+
+                    <div class="item item4">
+                        <h2 class="icons"><i class="fa-solid fa-music"></i></h2>
+                        <h2 class="info-title">Hobby</h2>
+                        <ul class="list hobby">
+                            <li>음악 듣기</li>
+                            <li>따릉이 타기</li>
+                            <li>한강 가기</li>
+                            <li>헬스 하기</li>
+                            <li>영화 보기</li>
+                            <li>여행 가기</li>
+                            <li>사진 찍기</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>            
+            <a href="#s3" id="s3"> <i class="fa-solid fa-photo-film scroll"></i></a>
+            <h1 id="info">Peace Gallery</h1>
+
+        <section class="photo">       
+            <article><img src="/img/gallery3.jpg"></article>
+            <article><img src="/img/gallery2.jpg"></article>
+            <article><img src="/img/gallery4.jpg"></article>
+            <article><img src="/img/gallery1.jpg"></article>
+            <article><img src="/img/gallery5.jpg"></article>
+        </section>
+
+            <a href="#s4" > <i class="fa-solid fa-envelope scroll"></i></a>
+            <h1 id="info">Guest Book</h1>
+
+           <section class="guest" id="s4">
+                <article>
+                    <div class="guestbook-container">
+                        <h1>Guest Book 📬</h1>
+                        <form class="guestbook-form">
+                            <input type="text" id="author" name="author" placeholder="이름을 입력해주세요.">
+                            <textarea id="content" name="content" rows="4" placeholder="내용을 입력해주세요."></textarea>
+                            <button type="submit">방명록 남기기</button>
+                        </form>
+                    </div>
+                </article>
+                <article id="guestbook-entries" class="todos-container">
+                    <div class="todo-item">
+                        
+                        <button class="delete-btn">x</button>
+                        </div>
+                    </div>
+                </article>
+           </section> 
+        </main>
+        <footer>
+            <p>   Contact : 010-3668-7754            e-mail : xaris3@naver.com    </p> 
+        </footer>
+  </body>
+</html>

@@ -1,0 +1,436 @@
+@font-face {
+  font-family: "Cafe24ClassicType-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Binggrae-Two";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 25px 0;
+  border-bottom: solid 2px black;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-right: -0px;
+}
+
+#title {
+  padding-top: 25px;
+  margin: 0;
+  font-size: 70px;
+  font-family: "Cafe24ClassicType-Regular";
+  text-shadow: 3px 4px 5px rgba(94, 92, 92, 0.429);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+  font-size: 19px;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 70px;
+}
+
+nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+  font-size: 21px;
+  transition-property: all;
+  transition: 0.4s;
+  transition-delay: 0.1s;
+}
+
+.top {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px;
+  border-radius: 20px;
+  background-image: url(/img/back_img.jpg);
+  background-size: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.top1 {
+  width: 40vw;
+  height: 66.6vh;
+  display: flex;
+  justify-content: right;
+}
+
+#main-img {
+  object-fit: contain;
+  width: 60%;
+  height: auto;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+
+.top2 {
+  width: 55vw;
+  height: 66.6vh;
+  box-sizing: border-box;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+#main-writle {
+  margin: 0;
+  font-family: "Binggrae-Two";
+  font-size: 55px;
+  transition-property: all;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+  text-shadow: 3px 4px 5px rgba(73, 72, 72, 0.523);
+}
+
+#main-writle:hover {
+  color: rgb(244, 38, 38);
+  font-size: 58px;
+  transition-property: all;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+
+#main-top2 {
+  margin: 10px;
+  font-family: "Binggrae-Two";
+  font-size: 50px;
+}
+
+.scroll {
+  margin-top: 55px;
+  margin-left: 49%;
+  margin-bottom: 5px;
+  font-size: 45px;
+  color: #000;
+  text-decoration: none;
+}
+
+.scroll:hover {
+  color: rgb(109, 34, 180);
+  transition-property: all;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+}
+
+.fa-user-large {
+  margin-bottom: 10px;
+}
+
+.fa-photo-film {
+  margin-left: 48%;
+}
+
+#info {
+  margin-top: 1.5px;
+  display: flex;
+  justify-content: center;
+  font-family: "Cafe24ClassicType-Regular";
+  text-shadow: 3px 4px 5px rgba(94, 92, 92, 0.2);
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  height: 50vh;
+  padding: 10px, 10px;
+  box-sizing: border-box;
+  border: solid 1.4px;
+  border-radius: 20px;
+  box-shadow: 7px 8px 8px rgba(100, 99, 99, 0.7);
+}
+
+.information {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.info-title {
+  font-family: "Cafe24ClassicType-Regular";
+  font-size: 27px;
+  margin: 20px;
+}
+
+.item {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+}
+
+.icons {
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+.list {
+  line-height: 40px;
+  font-family: "Binggrae-Two";
+  font-size: 20px;
+}
+
+.hobby {
+  margin-left: -30px;
+}
+
+#home {
+  margin-bottom: 50px;
+  margin-left: 48.5%;
+  font-size: 40px;
+}
+
+#s3 {
+  padding-top: 50px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo article {
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+  width: 15.86vw;
+  height: 70vh;
+  padding: 2vh 3vh;
+  box-sizing: border-box;
+  border: solid 1.4px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 8px rgba(105, 104, 104, 0.6);
+}
+
+.fa-envelope {
+  margin-top: 2vh;
+}
+
+.photo article img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* 여기부터 방명록 */
+
+.guest {
+  display: flex;
+  width: 100%;
+}
+
+.guest article {
+  margin-top: 6vh;
+  border: solid 1px #dddddde6;
+  height: 60vh;
+  margin-bottom: 8vh;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.guest article:nth-of-type(1) {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.guest article:nth-of-type(2) {
+  flex: 5;
+}
+
+.guestbook-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.guestbook-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 30px;
+  font-family: "Cafe24ClassicType-Regular";
+}
+
+.guestbook-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.guestbook-form input,
+.guestbook-form textarea {
+  width: 92%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif; /* 입력 요소의 글꼴을 Arial로 설정 */
+}
+
+.guestbook-form input:focus,
+.guestbook-form textarea:focus {
+  border-color: #0c6ed7;
+  outline: none;
+}
+
+.guestbook-form input:focus::placeholder,
+.guestbook-form textarea:focus::placeholder {
+  color: transparent;
+}
+
+.guestbook-form button {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.guestbook-form button:hover {
+  background-color: #0056b3;
+}
+
+.guestbook-entry {
+  background-color: #ffeb3b;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.guestbook-entry h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.guestbook-entry p {
+  margin: 5px 0;
+}
+
+.guestbook-entry time {
+  font-size: 12px;
+  color: #555;
+}
+
+/* 여기부터 포스트잇 */
+
+.todos-container {
+  display: flex; /* Flexbox를 사용하여 가로 배치 설정 */
+  flex-wrap: wrap; /* 요소들이 넘치는 경우 여러 줄에 걸쳐 배치 */
+  gap: 10px; /* 요소 사이의 간격 */
+}
+.todo-item {
+  background-color: #f4f283;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  position: relative; /* 자식 요소를 absolute 로 배치 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word; /* 긴 단어가 있을 때 줄바꿈 처리 */
+  font-family: "Binggrae-Two";
+}
+
+.todo-author {
+  margin-bottom: 50px;
+}
+
+.todo-item:hover {
+  background-color: #f4f283;
+}
+
+.delete-btn {
+  display: none; /* 초기에는 숨겨짐 */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none; /* 테두리 없애기 */
+  padding: 6px 10px;
+  border-radius: 50%;
+  font-size: 10px;
+  cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+}
+.todo-item:hover .delete-btn {
+  display: block; /* 마우스를 올리면 삭제 버튼이 나타남 */
+}
+
+/* footer */
+
+footer {
+  background-color: #641414c5; /* 배경색 설정 */
+  color: #fff; /* 텍스트 색상 설정 */
+  bottom: 0; /* 페이지 하단에 배치 */
+  padding: 15px 0; /* 상하 여백 설정 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  width: 100%; /* 전체 너비 설정 */
+}
+
+footer p {
+  margin: 0; /* 단락의 상하 여백 제거 */
+  white-space: pre; /* <p> 태그 공백 그대로*/
+  padding-top: 5px;
+}
